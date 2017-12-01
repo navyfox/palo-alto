@@ -1,0 +1,29 @@
+{
+  "name": "palo-alto",
+  "version": "1.0.0",
+  "description": "An example of a simple front-end web application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navyfox/palo-alto.git"
+  },
+  "author": "rim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/navyfox/palo-alto/issues"
+  },
+  "homepage": "https://github.com/navyfox/palo-alto#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "handlebars": "^4.0.11"
+  }
+}
