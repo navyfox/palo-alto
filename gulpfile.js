@@ -3,6 +3,9 @@ var sass = require('gulp-sass');
 var handlebars = require('gulp-compile-handlebars');
 var rename = require('gulp-rename');
 var browserSync = require('browser-sync').create();
+var cssmin = require('gulp-cssmin');
+var autoprefixer = require('gulp-autoprefixer');
+var sourcemaps = require('gulp-sourcemaps');
 
 var path = {
     css:  './src/*.scss',
@@ -24,7 +27,11 @@ gulp.task('default', ['build', 'serve', 'watch']);
 
 gulp.task('css', function () {
     return gulp.src(path.css)
+        .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
+        .pipe(sourcemaps.write('.'))
+        .pipe(cssmin())
+        .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest(path.dist.css));
 });
 
