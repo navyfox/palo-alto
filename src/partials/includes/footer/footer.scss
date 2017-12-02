@@ -9,10 +9,45 @@ footer {
 }
 
 .menu-footer{
+  width: 280px;
+  display: block;
   float: none;
-  padding: 0 40% 0 43%;
+  margin: auto;
 }
 .menu_link-footer {
   color:  #ffffff;
   font-weight: 500;
+}
+.copyright{
+  width: 535px;
+  margin: auto;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  margin-bottom: 35px;
+}
+.copyright span {
+  color:  #909090;
+}
+.social_icon {
+  width: 176px;
+  margin: auto;
+}
+.facebook_icon {
+  display: inline-block;
+  margin-right: 24px;
+  margin-bottom: 70px;
+}
+.twitter_icon {
+  display: inline-block;
+  margin-right: 24px;
+}
+.instagram_icon {
+  display: inline-block;
+  margin-right: 24px;
+}
+.pinterest_icon {
+  display: inline-block;
 }
