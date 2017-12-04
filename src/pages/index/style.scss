@@ -1,3 +1,5 @@
+$white-color: #ffffff;
+$blue-color: #5c6bc0;
 .main_conteiner {
   margin: 0 100px 75px 100px;
   padding: 75px 0 75px 0;
@@ -43,7 +45,7 @@
 }
 
 .form__input_required {
-  border: 1px solid #5c6bc0;
+  border: 1px solid $blue-color;
 }
 
 .form__radio {
@@ -55,10 +57,10 @@
 }
 .form__sumbit-button {
   font-size: 24px;
-  color: #5c6bc0;
+  color: $blue-color;
   margin: 60px 0 0 36px;
   border: 0;
-  background: #ffffff;
+  background: $white-color;
   padding: 5px 15px 5px 15px;
 }
 .form__sumbit-button:hover {
@@ -66,5 +68,5 @@
 }
 
 .form__sumbit-button:active {
-  border: 2px solid #5c6bc0;
+  border: 2px solid $blue-color;
 }
