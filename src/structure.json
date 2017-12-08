@@ -2,6 +2,7 @@
   "home": {
     "items_main_1": {
         "post_image": "",
+        "bookmark": "I Do Travel",
         "data": ["Sep ", 20],
         "header__name": "No difference how many peaks you reach if there was no pleasure in",
         "header__divider": "",
@@ -10,6 +11,7 @@
       },
     "items_main_2": {
       "post_image": "Yosemite.jpg",
+      "bookmark": "I Do Observe",
       "data": ["Sep ", 20],
       "header__name": "No difference how many peaks you reach if there was no pleasure in",
       "header__divider": "Curabitur luctus placerat lorem id eleifend. Nulla ac lacus finCurabitur luctus placerat lorem id eleifend. Nulla ac lacus finCurabitur luctus placerat lorem id eleifend. Nulla ac lacus finCurabitur luctus placerat lorem id eleifend. Nulla ac lacus finCurabitur luctus placerat lorem id eleifend. Nulla ac lacus fin",
