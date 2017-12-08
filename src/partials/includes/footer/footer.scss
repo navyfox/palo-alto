@@ -2,10 +2,24 @@ footer {
   background-color: #5c6bc0;
   padding: 70px 0 0 0;
 }
+@media only screen and (max-width: 768px) {
+  .menu_li {
+    display: block;
+    text-align: center;
+  }
+  .menu-footer {
+    width: 130px!important;
+  }
+  .menu_seach {
+    display: none;
+  }
+}
 .footer__name {
   font-size: 36px;
   color: #4a569a;
   text-align: center;
+  font-style: italic;
+  line-height: 25px;
 }
 
 .menu-footer{
@@ -19,14 +33,13 @@ footer {
   font-weight: 500;
 }
 .copyright{
-  width: 535px;
   margin: auto;
   color: #ffffff;
   font-size: 14px;
   font-weight: 400;
   line-height: 30px;
-  text-align: left;
   margin-bottom: 35px;
+  text-align: center;
 }
 .copyright span {
   color:  #909090;

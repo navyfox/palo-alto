@@ -7,6 +7,10 @@ body {
 main {
   box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.1);
   background-color: #ffffff;
-  margin: 75px 225px 100px 225px;
-
+  margin: 75px 15% 100px 15%;
+}
+@media screen and (max-width: 1024px) {
+  main{
+    margin: 75px 6.25% 100px 6.25%;
+  }
 }

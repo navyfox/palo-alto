@@ -1,5 +1,24 @@
 header{
-  margin: 75px 225px 0 225px;
+  margin: 75px 15% 0 15%;
+}
+@media screen and (max-width: 1024px) {
+  header{
+    margin: 75px 6.25% 0 6.25%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  header .menu {
+    display: none;
+  }
+  .menu_icon {
+    display: inline-block;
+    float: right;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .menu_icon {
+    display: none;
+  }
 }
 .menu{
   display: inline-block;
@@ -10,7 +29,8 @@ header{
   padding: 0;
   margin: 0;
   font-size: 42px;
-
+  font-style: italic;
+  line-height: 25px;
 }
 .menu_link {
   display: inline-block;
