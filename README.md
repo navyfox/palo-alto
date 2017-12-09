@@ -37,7 +37,7 @@ $ node -v
 with SSH:
 
 ```sh
-$ git clone git@github.com:sadullaeva/frontend-2017-project-build.git
+$ git clone git@github.com:navyfox/palo-alto.git
 ```
 
 or with HTTPS:
