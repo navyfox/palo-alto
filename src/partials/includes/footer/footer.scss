@@ -2,18 +2,6 @@ footer {
   background-color: #5c6bc0;
   padding: 70px 0 0 0;
 }
-@media only screen and (max-width: 768px) {
-  .menu_li {
-    display: block;
-    text-align: center;
-  }
-  .menu-footer {
-    width: 130px!important;
-  }
-  .menu_seach {
-    display: none;
-  }
-}
 .footer__name {
   font-size: 36px;
   color: #4a569a;
@@ -63,4 +51,16 @@ footer {
 }
 .pinterest_icon {
   display: inline-block;
+}
+@media only screen and (max-width: 768px) {
+  .menu_li {
+    display: block;
+    text-align: center;
+  }
+  .menu-footer {
+    width: 130px;
+  }
+  .menu_seach {
+    display: none;
+  }
 }

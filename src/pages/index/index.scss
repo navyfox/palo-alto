@@ -1,16 +1,5 @@
 $white-color: #ffffff;
 $blue-color: #5c6bc0;
-@media screen and (max-width: 700px) {
-  .form_container {
-    width: 200px!important;
-  }
-  .form__input {
-    padding: 20px 0 20px 5px!important;
-  }
-  .calendar {
-    margin: -50px 0 30px 150px!important;
-  }
-}
 .main_conteiner {
   margin: 0 100px 75px 100px;
   padding: 75px 0 75px 0;
@@ -82,4 +71,15 @@ $blue-color: #5c6bc0;
 
 .form__sumbit-button:active {
   border: 2px solid $blue-color;
+}
+@media screen and (max-width: 700px) {
+  .form_container {
+    width: 200px;
+  }
+  .form__input {
+    padding: 20px 0 20px 5px;
+  }
+  .calendar {
+    margin: -50px 0 30px 150px;
+  }
 }

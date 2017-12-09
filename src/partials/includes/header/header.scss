@@ -1,25 +1,6 @@
 header{
   margin: 75px 15% 0 15%;
 }
-@media screen and (max-width: 1024px) {
-  header{
-    margin: 75px 6.25% 0 6.25%;
-  }
-}
-@media only screen and (max-width: 768px) {
-  header .menu {
-    display: none;
-  }
-  .menu_icon {
-    display: inline-block;
-    float: right;
-  }
-}
-@media only screen and (min-width: 768px) {
-  .menu_icon {
-    display: none;
-  }
-}
 .menu{
   display: inline-block;
   float: right;
@@ -51,4 +32,23 @@ header{
 }
 .menu_seach {
   display: inline-block;
+}
+@media screen and (max-width: 1024px) {
+  header{
+    margin: 75px 6.25% 0 6.25%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  header .menu {
+    display: none;
+  }
+  .menu_icon {
+    display: inline-block;
+    float: right;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .menu_icon {
+    display: none;
+  }
 }

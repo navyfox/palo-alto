@@ -1,38 +1,5 @@
 $white-color: #ffffff;
 $blue-color: #5c6bc0;
-@media screen and (max-width: 1024px) {
-  .main_conteiner {
-    margin: 0 6.9% 75px;
-  }
-  .bookmark {
-    right: 4%!important;
-  }
-}
-@media screen and (max-width: 768px) {
-  .header__name {
-    font-size: 24px;
-  }
-  .post {
-    font-size: 16px!important;
-  }
-  .subtitle {
-    font-size: 18px!important;
-    line-height: 30px!important;
-  }
-  .main_conteiner {
-    padding: 30px 0 30px 0;
-  }
-  .hashtag {
-    display: block!important;
-    float: none!important;
-  }
-  .post_button {
-    display: block!important;
-    padding: 14px 10px!important;
-    margin: 10px;
-    font-size: 20px!important;
-  }
-}
 .data {
   color:  #bdbdbd;
   font-size: 14px;
@@ -107,4 +74,37 @@ $blue-color: #5c6bc0;
 }
 .hashtag_link:hover {
   color:  #5c6bc0;
+}
+@media screen and (max-width: 1024px) {
+  .main_conteiner {
+    margin: 0 6.9% 75px;
+  }
+  .bookmark {
+    right: 4%!important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header__name {
+    font-size: 24px;
+  }
+  .post {
+    font-size: 16px;
+  }
+  .subtitle {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .main_conteiner {
+    padding: 30px 0 30px 0;
+  }
+  .hashtag {
+    display: block;
+    float: none;
+  }
+  .post_button {
+    display: block;
+    padding: 14px 10px;
+    margin: 10px;
+    font-size: 20px;
+  }
 }
