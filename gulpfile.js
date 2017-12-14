@@ -20,6 +20,10 @@ var path = {
     watch: {
         css: './src/**/*.scss',
         html: './src/**/*.hbs'
+    },
+    images: {
+        source: './src/**/**/**/*.+(png|jpg)',
+        dist: './dist/images/'
     }
 };
 
@@ -29,7 +33,6 @@ gulp.task('css', function () {
     return gulp.src(path.css)
         .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
-        .pipe(sourcemaps.write('.'))
         .pipe(cssmin())
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest(path.dist.css));
@@ -47,12 +50,20 @@ gulp.task('html', function () {
         }))
         .pipe(gulp.dest(path.dist.html));
 });
+gulp.task('images', function () {
+    return gulp.src(path.images.source)
+        .pipe(rename({
+            dirname: '.'
+        }))
+        .pipe(gulp.dest(path.images.dist));
+});
 
-gulp.task('build', ['html', 'css']);
+gulp.task('build', ['html', 'css', 'images']);
 
 gulp.task('watch', function () {
     gulp.watch(path.watch.css, ['css']);
     gulp.watch(path.watch.html, ['html']);
+    gulp.watch(path.images.source, ['images']);
 });
 
 gulp.task('serve', ['watch'], function() {

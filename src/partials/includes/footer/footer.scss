@@ -1,6 +1,9 @@
 footer {
   background-color: #5c6bc0;
-  padding: 70px 0 0 0;
+  padding: 70px 0 70px 0;
+}
+.social_link {
+  text-decoration: none;
 }
 .footer__name {
   font-size: 36px;
@@ -9,9 +12,8 @@ footer {
   font-style: italic;
   line-height: 25px;
 }
-
 .menu-footer{
-  width: 280px;
+  width: 300px;
   display: block;
   float: none;
   margin: auto;
@@ -33,24 +35,43 @@ footer {
   color:  #909090;
 }
 .social_icon {
-  width: 176px;
+  width: 220px;
   margin: auto;
 }
 .facebook_icon {
   display: inline-block;
-  margin-right: 24px;
-  margin-bottom: 70px;
+  margin-right: 20px;
+  background-image: url(./images/social.png);
+  background-size: 235px 33px;
+  background-position: 0px 0;
+  width: 32px;
+  height: 32px;
 }
 .twitter_icon {
   display: inline-block;
-  margin-right: 24px;
+  margin-right: 20px;
+  background-image: url(./images/social.png);
+  background-size: 243px 33px;
+  background-position: -67px 0;
+  width: 40px;
+  height: 32px;
 }
 .instagram_icon {
   display: inline-block;
-  margin-right: 24px;
+  margin-right: 20px;
+  background-image: url(./images/social.png);
+  background-size: 235px 33px;
+  background-position: -134px 0;
+  width: 37px;
+  height: 32px;
 }
 .pinterest_icon {
   display: inline-block;
+  background-image: url(./images/social.png);
+  background-size: 235px 33px;
+  background-position: 37px 0;
+  width: 37px;
+  height: 33px;
 }
 @media only screen and (max-width: 768px) {
   .menu_li {
