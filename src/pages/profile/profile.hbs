@@ -1,0 +1,45 @@
+{{#> layout/base }}
+
+{{#*inline "main-block"}}
+<main>
+    <div class="main_conteiner">
+        <div class="header">
+            <h2 class="header__name header__name_grey">Profile</h2>
+            <div class="header__divider"></div>
+        </div>
+        <div class="form_container">
+            <form method="post" name="profile">
+                <div class="form">
+                    <label class="form__label" for="first">First name</label>
+                    <input class="form__input" id="first" name="first name" placeholder="John">
+                </div>
+                <div class="form">
+                    <label class="form__label" for="last">Last name</label>
+                    <input class="form__input" id="last" name="last name" placeholder="Doe">
+                </div>
+                <div class="form">
+                    <label class="form__label" for="email">E-mail</label>
+                    <input class="form__input" id="email" name="email" placeholder="johndl">
+                </div>
+                <div class="form">
+                    <label class="form__label" for="phone">Phone</label>
+                    <input class="form__input" id="phone" name="phone" placeholder="+_(___)___-__-__">
+                </div>
+                <div class="form">
+                    <label class="form__label" for="date">Date of Birth</label>
+                    <input class="form__input" id="date" name="date" placeholder="DD/MM/YYYY">
+                    <svg class="calendar" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150"><defs><style>.a{fill:#888;}</style></defs><title>Untitled-1</title><rect class="a" x="67.5" y="65.63" width="15" height="15"/><rect class="a" x="91.5" y="65.63" width="15" height="15"/><rect class="a" x="115.5" y="65.63" width="15" height="15"/><rect class="a" x="67.5" y="89.63" width="15" height="15"/><rect class="a" x="91.5" y="89.63" width="15" height="15"/><rect class="a" x="115.5" y="89.63" width="15" height="15"/><rect class="a" x="19.5" y="89.63" width="15" height="15"/><rect class="a" x="43.5" y="89.63" width="15" height="15"/><rect class="a" x="67.5" y="113.63" width="15" height="15"/><rect class="a" x="91.5" y="113.63" width="15" height="15"/><rect class="a" x="19.5" y="113.63" width="15" height="15"/><rect class="a" x="43.5" y="113.63" width="15" height="15"/><path class="a" d="M31.5,31.13a8.26,8.26,0,0,1-8.25-8.25V10.13a8.25,8.25,0,1,1,16.5,0V22.88A8.26,8.26,0,0,1,31.5,31.13Z"/><path class="a" d="M126.75,10.13V22.88a8.25,8.25,0,1,1-16.5,0V10.13A8.25,8.25,0,1,1,126.75,10.13Z"/><path class="a" d="M126.75,10.13V22.88a8.25,8.25,0,1,1-16.5,0V10.13A8.25,8.25,0,1,1,126.75,10.13Z"/><path class="a" d="M142.5,16.5h-12v6.38a12,12,0,0,1-12,12h0a12,12,0,0,1-12-12V16.5h-63v6.38a12,12,0,0,1-12,12h0a12,12,0,0,1-12-12V16.5H7.5A7.5,7.5,0,0,0,0,24V140.63a7.5,7.5,0,0,0,7.5,7.5h135a7.5,7.5,0,0,0,7.5-7.5V24A7.5,7.5,0,0,0,142.5,16.5Zm-3,121.12H10.5v-81h129v81Z"/></svg>
+                </div>
+                <div class="form">
+                    <label class="form__label">Sex</label>
+                    <div class="form__radio"><input class="form__radio-input" type="radio" name="gender" value="male" checked>Male</div>
+                    <div class="form__radio"><input class="form__radio-input" type="radio" name="gender" value="female">Female</div>
+                    <div class="form__sumbit"><input class="form__sumbit-button" type="submit" value="SUMBIT"></div>
+                </div>
+            </form>
+        </div>
+    </div>
+</main>
+{{/inline}}
+
+{{/layout/base }}

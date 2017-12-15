@@ -33,6 +33,7 @@ gulp.task('css', function () {
     return gulp.src(path.css)
         .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
+        .pipe(autoprefixer())
         .pipe(cssmin())
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest(path.dist.css));

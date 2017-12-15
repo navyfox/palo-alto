@@ -35,14 +35,14 @@ footer {
   color:  #909090;
 }
 .social_icon {
-  width: 220px;
+  width: 230px;
   margin: auto;
 }
 .facebook_icon {
   display: inline-block;
   margin-right: 20px;
-  background-image: url(./images/social.png);
-  background-size: 235px 33px;
+  background-image: url(./images/social@2x.png);
+  background-size: auto 33px;
   background-position: 0px 0;
   width: 32px;
   height: 32px;
@@ -50,8 +50,8 @@ footer {
 .twitter_icon {
   display: inline-block;
   margin-right: 20px;
-  background-image: url(./images/social.png);
-  background-size: 243px 33px;
+  background-image: url(./images/social@2x.png);
+  background-size: auto 33px;
   background-position: -67px 0;
   width: 40px;
   height: 32px;
@@ -59,19 +59,24 @@ footer {
 .instagram_icon {
   display: inline-block;
   margin-right: 20px;
-  background-image: url(./images/social.png);
-  background-size: 235px 33px;
+  background-image: url(./images/social@2x.png);
+  background-size: auto 33px;
   background-position: -134px 0;
-  width: 37px;
-  height: 32px;
+  width: 38px;
+  height: 33px;
 }
 .pinterest_icon {
   display: inline-block;
-  background-image: url(./images/social.png);
-  background-size: 235px 33px;
+  background-image: url(./images/social@2x.png);
+  background-size: auto 33px;
   background-position: 37px 0;
   width: 37px;
   height: 33px;
+}
+@media only screen and (min-device-pixel-ratio: 2.0) {
+  .facebook_icon .twitter_icon .instagram_icon .pinterest_icon{
+    background-image: url(./images/social@3x.png);
+  }
 }
 @media only screen and (max-width: 768px) {
   .menu_li {

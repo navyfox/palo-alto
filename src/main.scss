@@ -1,11 +1,12 @@
 /* normalize */
 @import "normalize.css";
+
 /* Layout */
 @import "partials/layout/base";
 
 /* Pages */
+@import "pages/profile/profile";
 @import "pages/index/index";
-@import "./pages/home/home";
 
 /* Partials */
 @import "./partials/includes/header/header";
