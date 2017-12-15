@@ -28,7 +28,6 @@ $blue-color: #5c6bc0;
 .form_container{
   width: 400px;
   margin: 45px auto;
-  max-height: 830px;
 }
 .form {
   margin: 30px 10px 10px 10px;
@@ -59,7 +58,9 @@ $blue-color: #5c6bc0;
 }
 .form__radio-input {
   margin: 0 10px 0 0;
-  color:  #333333;
+}
+.form__label_radio-input {
+  display: inline-block;
 }
 .form__sumbit-button {
   font-size: 24px;

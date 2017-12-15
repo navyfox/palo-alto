@@ -5,14 +5,15 @@ footer {
 .social_link {
   text-decoration: none;
 }
-.footer__name {
+.header__title_footer {
+  display: block;
   font-size: 36px;
   color: #4a569a;
   text-align: center;
   font-style: italic;
   line-height: 25px;
 }
-.menu-footer{
+.menu_footer{
   width: 300px;
   display: block;
   float: none;
