@@ -1,0 +1,22 @@
+{
+  "articles": [
+    {
+      "post_image": "",
+      "bookmark": "I Do Travel",
+      "data": "Sep 20",
+      "header__name": "No difference how many peaks you reach if there was no pleasure in",
+      "subtitle": "",
+      "post": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "hashtag_link": ["#Yosemite", "#Peak", "#Exploer"]
+    },
+    {
+      "post_image": "./images/Yosemite.jpg",
+      "bookmark": "I Do Observe",
+      "data": "Sep 21",
+      "header__name": "No difference how many peaks you reach if there was no pleasure in",
+      "subtitle": "Curabitur luctus placerat lorem id eleifend. Nulla ac lacus finCurabitur luctus placerat lorem id eleifend. Nulla ac lacus finCurabitur luctus placerat lorem id eleifend. Nulla ac lacus finCurabitur luctus placerat lorem id eleifend. Nulla ac lacus finCurabitur luctus placerat lorem id eleifend. Nulla ac lacus fin",
+      "post": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "hashtag_link": ["#Yosemite", "#Peak", "#Exploer"]
+    }
+  ]
+}
