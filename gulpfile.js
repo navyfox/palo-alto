@@ -117,9 +117,9 @@ gulp.task('build', [
 ]);
 
 gulp.task('watch', function () {
-    gulp.watch(path.css, ['css']);
+    gulp.watch(path.watch.css, ['css']);
     gulp.watch(path.js, ['js']);
-    gulp.watch(path.html.pages, ['html']);
+    gulp.watch(path.watch.html, ['html']);
     gulp.watch(path.images.source, ['images']);
     gulp.watch(path.html.templates, ['hbs_templates']);
     gulp.watch(path.html.partials, ['html']);

@@ -16,13 +16,31 @@
             </div>
         </div>
         <div class="menu_icon">
-            <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                    width="32px" height="26px">
-                <path fill-rule="evenodd"  fill="rgb(92, 107, 192)"
-                      d="M10.000,26.000 L10.000,24.000 L32.000,24.000 L32.000,26.000 L10.000,26.000 ZM-0.000,12.000 L32.000,12.000 L32.000,14.000 L-0.000,14.000 L-0.000,12.000 ZM-0.000,-0.000 L32.000,-0.000 L32.000,2.000 L-0.000,2.000 L-0.000,-0.000 Z"/>
-            </svg>
+            <input type="checkbox" id="hmt" class="hidden-menu-ticker">
+            <label class="btn-menu" for="hmt">
+                <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="32px" height="26px">
+                    <path fill-rule="evenodd"  fill="rgb(92, 107, 192)"
+                          d="M10.000,26.000 L10.000,24.000 L32.000,24.000 L32.000,26.000 L10.000,26.000 ZM-0.000,12.000 L32.000,12.000 L32.000,14.000 L-0.000,14.000 L-0.000,12.000 ZM-0.000,-0.000 L32.000,-0.000 L32.000,2.000 L-0.000,2.000 L-0.000,-0.000 Z"/>
+                </svg>
+            </label>
+            <ul class="hidden-menu">
+                <div class="hidden-menu__seach">
+                    <form>
+                        <input class="hidden-menu__input" placeholder="SEARCH">
+                        <input class="hidden-menu__submit" type="submit" value="">
+                    </form>
+                    <div class="hidden-menu__hr"></div>
+                </div>
+                <li><a href="">HOME</a></li>
+                <li><a href="">PROFILE</a></li>
+                <div class="hidden-menu__footer">
+                    <div class="hidden-menu__footer_title">Palo Alto</div>
+                    <div class="hidden-menu__footer_subtitle">Designed & Developed by PixelBuddha Team</div>
+                </div>
+            </ul>
         </div>
     </div>
 </header>
